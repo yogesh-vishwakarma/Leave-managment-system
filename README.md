@@ -1,5 +1,4 @@
-# trading_simulator
-java version of monopoly game
+# Leave Management System
 
 Hi,Myself Yogesh Vishwakarma
-This game is implemented in java where the gui part of game is done using Windows Builder Tool of Eclipse IDE.
+This project is implemented using php,mysql and xampp server 
