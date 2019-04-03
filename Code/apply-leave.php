@@ -16,9 +16,9 @@ $todate=$_POST['todate'];
 $description=$_POST['description'];  
 $status=0;
 $isread=0;
-if($fromdate > $todate){
-                $error=" ToDate should be greater than FromDate ";
-           }
+//if($fromdate > $todate){
+//                $error=" Employee can take leaves in beetween a month only!! ";
+//           }
 $sql="INSERT INTO tblleaves(LeaveType,ToDate,FromDate,Description,Status,IsRead,empid) VALUES(:leavetype,:fromdate,:todate,:description,:status,:isread,:empid)";
 $query = $dbh->prepare($sql);
 $query->bindParam(':leavetype',$leavetype,PDO::PARAM_STR);
