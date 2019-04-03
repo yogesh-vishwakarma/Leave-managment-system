@@ -159,7 +159,7 @@ foreach($results as $result)
 
 <div class="input-field col m6 s12">
 <label for="birthdate">Date of Birth</label>
-<input id="birthdate" name="dob"  class="datepicker" value="<?php echo htmlentities($result->Dob);?>" >
+<input id="birthdate" name="dob" type="date" class="datepicker" value="<?php echo htmlentities($result->Dob);?>" >
 </div>
 
                                                     
